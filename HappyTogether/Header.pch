@@ -1,0 +1,62 @@
+//
+//  Header.pch
+//  HappyTogether
+//
+//  Created by 李晓满 on 16/11/29.
+//  Copyright © 2016年 李晓满. All rights reserved.
+//
+
+#ifdef __OBJC__
+
+#import "BaseNavigationController.h"
+#import "BaseViewController.h"
+#import "BaseTableViewController.h"
+#import "BaseTableViewHeaderFooterView.h"
+#import "BaseCollectionReusableView.h"
+#import "BaseCollectionViewController.h"
+#import "BaseCollectionReusableView.h"
+#import "NSLayoutConstraint+SimpleLayout.h"
+#import "NSString+Size.h"
+#import <SVProgressHUD.h>
+#import <SDImageCache.h>
+#import <MJExtension.h>
+#import <MJRefresh.h>
+#import "FMDBSingle.h"
+#import "zkSignleTool.h"
+#import <IQKeyboardManager.h>
+#import "YJHomeModel.h"
+
+#import <UMSocialCore/UMSocialCore.h>
+#import <UShareUI/UShareUI.h>
+
+//屏幕的长宽
+#define ScreenW [UIScreen mainScreen].bounds.size.width
+#define ScreenH [UIScreen mainScreen].bounds.size.height
+
+#define RGB(R,G,B,A) [UIColor colorWithRed:(R)/255.0 green:(G)/255.0 blue:(B)/255.0 alpha:(A)]
+
+//文字三种颜色
+#define CharacterDarkColor [UIColor colorWithRed:56/255.0 green:56/255.0 blue:56/255.0 alpha:1]
+#define CharacterGrayColor [UIColor colorWithRed:102/255.0 green:102/255.0 blue:102/255.0 alpha:1]
+#define CharacterLightGrayColor [UIColor colorWithRed:153/255.0 green:153/255.0 blue:153/255.0 alpha:1]
+
+//背景两种颜色
+#define BGGrayColor [UIColor colorWithRed:246/255.0 green:246/255.0 blue:246/255.0 alpha:1]
+#define BGWhiteColor [UIColor colorWithRed:255/255.0 green:255/255.0 blue:255/255.0 alpha:1]
+
+//辅助色
+#define  LinghtRedColor [UIColor colorWithRed:238/255.0 green:74/255.0 blue:38/255.0 alpha:1]
+#define  RedColor [UIColor colorWithRed:242/255.0 green:85/255.0 blue:78/255.0 alpha:1]
+#define  YellowColor [UIColor colorWithRed:218/255.0 green:167/255.0 blue:0/255.0 alpha:1]
+#define  OrRedColor [UIColor colorWithRed:241/255.0 green:144/255.0 blue:76/255.0 alpha:1]
+#define  GreenColor [UIColor colorWithRed:96/255.0 green:192/255.0 blue:32/255.0 alpha:1]
+#define  DarkYellowColor [UIColor colorWithRed:153/255.0 green:109/255.0 blue:0/255.0 alpha:1]
+
+//分割线
+#define  LineColor [UIColor colorWithRed:190/255.0 green:190/255.0 blue:190/255.0 alpha:1]
+//
+#define  BlueColor [UIColor colorWithRed:75/255.0 green:168/255.0 blue:233/255.0 alpha:1]
+/** 地图额APP key */
+#define MapAppKey @"8f58ea0cc45d182797296388c11e882d"
+
+#endif
